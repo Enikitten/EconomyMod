@@ -367,7 +367,6 @@ public final class Economymod extends JavaPlugin implements Listener {
         if (args.length == length) {
             return true;}
         else {
-            printToLogger("Incorrect Command Usage");
             return false;
         }
     }
