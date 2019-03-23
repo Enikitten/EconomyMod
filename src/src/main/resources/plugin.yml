@@ -1,0 +1,23 @@
+name: economyMod
+main: com.enigmadevelopment.economymod.Economymod
+version: 0.0.1 Closed Alpha
+author: Enikitty
+commands:
+  economymodsqlsetup:
+    description: Sets up sql server.  Used by administrator.
+    usage: /economymodSQLSetup $url $port $username $password $database $balanceTableName $itemValuesTableName
+  buy:
+    description: buys item.
+    usage: /buy NumToBuy Item_Name
+  sell:
+    description: sells item
+    usage: /sell NumToSell Item_Name
+  balance:
+    description: returns user's current balance
+    usage: /balance
+  setbalance:
+    description: lets server owner set a user's balance
+    usage: /setbalance $username $balance
+  getbalance:
+    description: lets server owner get a user's balance
+    ussage: /getbalance $username
